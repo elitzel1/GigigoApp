@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cert.eli.gigigoapp.AcercaDe">
+
+
+
+
+    <TextView
+        style="@style/TextTitle"
+        android:text="@string/tiempo_desarrollo_title"
+        android:id="@+id/textView"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        style="@style/Text"
+        android:text="@string/tiempo_desarrollo"
+        android:id="@+id/txtDesa"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        style="@style/TextTitle"
+        android:text="@string/version_desarrollo_title"
+        android:id="@+id/txtVersion"
+        android:layout_below="@+id/txtDesa"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        style="@style/Text"
+        android:id="@+id/txtVersionNum"
+        android:text="@string/version"
+        android:layout_below="@+id/txtVersion"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        style="@style/TextTitle"
+        android:text="@string/datos_desarrollador"
+        android:id="@+id/txtDatos"
+        android:layout_below="@+id/txtVersionNum"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        style="@style/Text"
+        android:text="@string/developer_name"
+        android:id="@+id/txtNombre"
+        android:layout_below="@+id/txtDatos"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        style="@style/Text"
+        android:text="@string/developer_email"
+        android:id="@+id/txtEmail"
+        android:layout_below="@+id/txtNombre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        style="@style/Text"
+        android:text="@string/developer_hobbies"
+        android:id="@+id/txtHombbies"
+        android:layout_below="@+id/txtEmail"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="4dp" />
+
+
+
+</RelativeLayout>
